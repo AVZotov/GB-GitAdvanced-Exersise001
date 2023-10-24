@@ -15,5 +15,11 @@ public abstract class ConsoleIO
     {
         return Console.ReadLine();
     }
+
+
+    public static void PrintDate()
+    {
+        System.Console.WriteLine(DateTime.Now);
+    }
 }
 

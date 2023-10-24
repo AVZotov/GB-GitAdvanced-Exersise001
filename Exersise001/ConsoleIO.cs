@@ -11,7 +11,7 @@ public abstract class ConsoleIO
         Console.WriteLine("Hello");
     }
 
-    public static string GetUserInput()
+    public static string? GetUserInput()
     {
         return Console.ReadLine();
     }
